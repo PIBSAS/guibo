@@ -1,0 +1,761 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="./" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Unidad 2: &#8212; Guia AMI 2025</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="_static/styles/bootstrap.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+
+  
+  <link href="_static/vendor/fontawesome/6.5.2/css/all.min.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=03e43079" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css?v=eba8b062" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=13237357" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.8ecb98da25f57f5357bf6f572d296f466b2cfe2517ffebfabe82451661e28f02.css?v=6644e6bb" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css?v=4fa983c6" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-design.min.css?v=95c83b7e" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
+  <script src="_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+    <script src="_static/documentation_options.js?v=9eb32ce0"></script>
+    <script src="_static/doctools.js?v=9a2dae69"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="_static/copybutton.js?v=f281be69"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?v=887ef09a"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js?v=4a39c7ea"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="_static/design-tabs.js?v=f930bc37"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="_static/sphinx-thebe.js?v=c100c467"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'Guia_U2';</script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Unidad 3:" href="Guia_U3.html" />
+    <link rel="prev" title="Unidad 1:" href="Guia_U1.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-primary-sidebar-checkbox"/>
+  <label class="overlay overlay-primary" for="pst-primary-sidebar-checkbox"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-secondary-sidebar-checkbox"/>
+  <label class="overlay overlay-secondary" for="pst-secondary-sidebar-checkbox"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="intro.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="_static/logo.png" class="logo__image only-light" alt="Guia AMI 2025 - Home"/>
+    <script>document.write(`<img src="_static/logo.png" class="logo__image only-dark" alt="Guia AMI 2025 - Home"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+ <script>
+ document.write(`
+   <button class="btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="intro.html">
+                    Welcome to your Jupyter Book
+                </a>
+            </li>
+        </ul>
+        <ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="Guia_U1.html">Unidad 1:</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Unidad 2:</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Guia_U3.html">Unidad 3:</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</button></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/amipy25/guias" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/amipy25/guias/issues/new?title=Issue%20on%20page%20%2FGuia_U2.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="_sources/Guia_U2.ipynb" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.ipynb</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="theme-switch fa-solid fa-sun fa-lg" data-mode="light"></i>
+    <i class="theme-switch fa-solid fa-moon fa-lg" data-mode="dark"></i>
+    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"></i>
+  </button>
+`);
+</script>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm pst-navbar-icon search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Unidad 2:</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#problema-6-carrera">Problema 6. [Carrera](<img src="img/geo.png" style="height:1em; vertical-align:middle;"/>)</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#problema-7-tiro-vertical">Problema 7.[Tiro vertical]</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#problema-8-velocidad-media">Problema 8. [Velocidad media](<img src="img/geo.png" style="height:1em; vertical-align:middle;"/>)</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#problema-9-velocidad-instantanea">Problema 9. [Velocidad instantánea]</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#problema-10-varias-velocidades">Problema 10. [Varias velocidades]</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#problema-11-recta-tangente">Problema 11. [Recta tangente]</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#problema-12-ecuaciones-de-cinematica">Problema 12. [Ecuaciones de cinemática]</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#problema-13-problemas-tomados-de-la-guia-de-fisica-i">Problema 13. [Problemas tomados de la guía de Física I]</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#problema-14-problemas-de-un-trazo-funcion-cuadratica">Problema 14. [Problemas de un trazo. Función cuadrática](<img src="img/nogeo.png" style="height:1em; vertical-align:middle;"/>)</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#problema-15-problemas-de-un-trazo-funcion-cuadratica-y-derivada">Problema 15. [Problemas de un trazo. Función cuadrática y derivada](<img src="img/nogeo.png" style="height:1em; vertical-align:middle;"/>)</a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="unidad-2">
+<h1>Unidad 2:<a class="headerlink" href="#unidad-2" title="Link to this heading">#</a></h1>
+<ul class="simple">
+<li><p>Modelos cuadráticos y variación.</p></li>
+</ul>
+<section id="problema-6-carrera">
+<h2>Problema 6. [Carrera](<img src="img/geo.png" style="height:1em; vertical-align:middle;">)<a class="headerlink" href="#problema-6-carrera" title="Link to this heading">#</a></h2>
+<p>Este problema es para investigar a partir de una applet de GeoGebra que pueden encontrar en este enlace (<a class="reference external" href="https://www.geogebra.org/m/ehtnuykj">clic acá</a>) y su consigna es exactamente la misma que la del <strong>Problema 1</strong>, porque es el  tipo de abordaje de los problemas que nos acostumbraremos a hacer en esta materia.</p>
+<p><img alt="" src="_images/image-022.png" /></p>
+<p>a) Jueguen un poco con la applet y escriban un breve texto que explique en qué consiste. El texto debería servir para que alguien que no haya visto la applet entienda de qué se trata.</p>
+<p>b) Redaccten dos o tres preguntas que se podrían investigar a partir de la applet. Estas preguntas serán compartidas en la clase y se discutirá las posibilidades y procedimientos convenientes para intentar responderlas.</p>
+</section>
+<section id="problema-7-tiro-vertical">
+<h2>Problema 7.[Tiro vertical]<a class="headerlink" href="#problema-7-tiro-vertical" title="Link to this heading">#</a></h2>
+<p>Una bolita de vidrio es lanzada hacía arriba desde <span class="math notranslate nohighlight">\( 1\ m \)</span> de altura y con una velocidad de <span class="math notranslate nohighlight">\( 15 \frac{m}{s} \)</span>. Si la variable <span class="math notranslate nohighlight">\( t \)</span> representa el tiempo (medidop en segundos), la altura (en metros) a la que estará la bolita en cada instante viene dada por la fórmula:</p>
+<p><span class="math notranslate nohighlight">\( f(t) = -5t^2 + 15t + 1 \)</span></p>
+<p>a) ¿A qué altura del piso estará la bolita <span class="math notranslate nohighlight">\( 0,5\ s\)</span> después de ser lanzada?</p>
+<p>b) ¿A qué altura estará <span class="math notranslate nohighlight">\( 2 s \)</span> después de ser lanzada?</p>
+<p>c) ¿Se puede asegurar que la bolita estuvo aascendiendo durante los primeros dos segundos desde que fue lanzada?</p>
+<p>d) Observen que, para esta función, es <span class="math notranslate nohighlight">\( f(0) = 1 \)</span>. ¿Qué significa esta información en el contexto del problema?</p>
+<p>e) Observen que <span class="math notranslate nohighlight">\( f(3) = 1 \)</span> y <span class="math notranslate nohighlight">\( f(4) = -19 \)</span> ¿Qué significan estos valores en el contexto del problema?</p>
+<p>f) ¿Cuánto tarda la bolita en llegar al piso?</p>
+<p>g) La <strong>velocidad media</strong> de la bolita entre un instante <span class="math notranslate nohighlight">\( t_0 \)</span> y un instante <span class="math notranslate nohighlight">\( t_1 \)</span> es la relación que hay  entre la distancia recorrida por labolita entre esos dos instantes y el tiempo <span class="math notranslate nohighlight">\( t_1 -t_0 \)</span> que le llevó recorrer esa distancia. Es decir:</p>
+<table style="width:100%">
+    <tr>
+        <td style="text-align:center">$$\text{Velocidad media} = V_M = \frac{ \text{Distancia recorrida} }{ \text{Tiempo empleado} } = \frac{ f(t_1) - f(t_1) }{ t_1 - t_0 }$$</td>
+    </tr>
+</table>
+Para entender la definición, elijan dos instantes cercanos en el recorrido de la bolita, calculen la velocidad media en ese intervalo de tiempo y comparen con la que haya calculado otro compañero.</section>
+<section id="problema-8-velocidad-media">
+<h2>Problema 8. [Velocidad media](<img src="img/geo.png" style="height:1em; vertical-align:middle;">)<a class="headerlink" href="#problema-8-velocidad-media" title="Link to this heading">#</a></h2>
+<p>Supongamos que <span class="math notranslate nohighlight">\( k \)</span> es algún número positivo. Si <span class="math notranslate nohighlight">\( f : [0, k] \to \mathbb{R}/f(t) = at^2 + bt + c \)</span> da la posición en función del tiempo para un  móvil.</p>
+<p>a) Construyan una applet de GeoGebra donde:</p>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\( k, a, b \)</span> y <span class="math notranslate nohighlight">\( c \)</span> sean deslizadores.</p></li>
+<li><p>Haya otros dos deslizadores <span class="math notranslate nohighlight">\( t_0 \)</span> y <span class="math notranslate nohighlight">\( t_1 \)</span>.</p></li>
+<li><p>Haya dos puntos que se mueven sobre el gráfico de <span class="math notranslate nohighlight">\( f \)</span> y que corresponden la posición del móvil en os instantes <span class="math notranslate nohighlight">\( t_0 \)</span> y <span class="math notranslate nohighlight">\( t_1 \)</span>.</p></li>
+<li><p>Haya en la pantalla un cartel que dice: <em>La velocidad media entre los instantes <span class="math notranslate nohighlight">\( t_0 \)</span> y <span class="math notranslate nohighlight">\( t_1 \)</span> es …</em>, de manera que el <span class="math notranslate nohighlight">\( t_0 \)</span> y el <span class="math notranslate nohighlight">\( t_1 \)</span> vayan cambiando en el cartel cuando el usuario mueve los deslizadores y aparezca en el cartel el cálculo de la velocidad media para esos valores de <span class="math notranslate nohighlight">\( t_0 \)</span> y <span class="math notranslate nohighlight">\( t_1 \)</span>.</p></li>
+</ul>
+<p>b) Si <span class="math notranslate nohighlight">\( t \)</span> es un instante de tiempo y <span class="math notranslate nohighlight">\( h \)</span> es un instante de tiempo muy chico, entonces <span class="math notranslate nohighlight">\( t + h \)</span> representa “un ratito después del instante <span class="math notranslate nohighlight">\( t \)</span>“. Hagan una segunda versión de la applet anterior que permita calcular y mostrar la velocidad media en intervalos de tiempo breves que van desde <span class="math notranslate nohighlight">\( t \)</span> hasta <span class="math notranslate nohighlight">\( t + h \)</span>.</p>
+<p>c) Utilicen cualquiera de las dos applets para modificar los valores de <span class="math notranslate nohighlight">\( a, b \)</span> y <span class="math notranslate nohighlight">\( c \)</span> y determinar intervalos de tiempo en los que se pueda decir que:</p>
+<ul class="simple">
+<li><p>La velocidad media es positiva y cada vez mayor.</p></li>
+<li><p>La velocidad media es positiva y cada vez menor.</p></li>
+<li><p>La velocidad media es <span class="math notranslate nohighlight">\( 0 \)</span>.</p></li>
+</ul>
+</section>
+<section id="problema-9-velocidad-instantanea">
+<h2>Problema 9. [Velocidad instantánea]<a class="headerlink" href="#problema-9-velocidad-instantanea" title="Link to this heading">#</a></h2>
+<p>Queremos estudiar como se podría definir en función del tiempo, la velocidad de un móvill como los que venimos viendo en problemas anteriores. Para eso vamos a calcular la velocidad media en distintos intervalos de su recorrido.</p>
+<p>Consideren la función posición <span class="math notranslate nohighlight">\( f : [0, 10] \to \mathbb{R}/f(t) = t^2 \)</span></p>
+<p>a) Partan el dominio de la función en <span class="math notranslate nohighlight">\( 40\ intervalos \)</span> de tiempo iguales:
+<em>0.0, 0.25, 0.5, 0.75, 1.0, 1.25, 1.5, 1.75, 2.0, …, 9.5, 9.75, 10,0</em>
+Calculen la velocidad media en cada uno de esos intervalos, con esta estrategia: organisense en el grupo de toda la clase para que cada uno calcule una velocidad media distinta y luego reúnan toda la información en una tabla, para construir un gráfico.</p>
+<p>b) ¿Cómo se podría usar una computadora para sistematizar esta tarea?</p>
+</section>
+<section id="problema-10-varias-velocidades">
+<h2>Problema 10. [Varias velocidades]<a class="headerlink" href="#problema-10-varias-velocidades" title="Link to this heading">#</a></h2>
+<p>Cada una de las siguientes funciones describe la posición de un automóvil en función del tiempo y se pueden considerar casos especiales de los que pueden representarse con la applet del <strong>Problema 8</strong>. Considérenlas para <span class="math notranslate nohighlight">\( t \ge 0 \)</span>.</p>
+<ol class="arabic simple">
+<li><p><span class="math notranslate nohighlight">\( f_{1}(t) = t^2 + 6t \)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\( f_{2}(t) = t^2 + 15t \)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\( f_{3}(t) = t^2 + 3t \)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\( f_{4}(t) = 3t^2 \)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\( f_{5}(t) = \frac{1}{3}t^2 \)</span></p></li>
+</ol>
+<p>Deduzcan en cada caso la función que da la velocidad de automóvil en cada instante <span class="math notranslate nohighlight">\( t \)</span>. Pueden graficarla con los recursos del <strong>Problema 9</strong>.</p>
+</section>
+<section id="problema-11-recta-tangente">
+<h2>Problema 11. [Recta tangente]<a class="headerlink" href="#problema-11-recta-tangente" title="Link to this heading">#</a></h2>
+<p>Lean el siguiente recuadro:</p>
+<div style="border:2px solid black; padding:10px; border-radius:10px;">
+<h4>Recta tangente:</h4> <p>La derivada de una función $ f $ en un punto $ x_0 $ de su dominio 8en el que $ f $ es derivable) es la pendiente de la recta tangente al gráfico de $ f $ en el punto $ \left(x_0, f(x_0)\right) $. La figura muestra el gráfico de una función $ f $ y su recta tangente en dos puntos distintos.</p>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><img alt="" src="_images/image-028.png" /></p></td>
+<td><p><img alt="" src="_images/image-030.png" /></p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Esa recta tangente tiene una ecuación del tipo $ y = mx + b $.</p>
+<p>Pero, como su pendiente es $ m = f'(x_0) $, la ecuación queda:</p>
+<table style="width:100%;">
+  <tr>
+    <td style="text-align:center;">$ y = f'(x_0)x + b $</td>
+    <td style="text-align:right; width:80px;">(2.1)</td>
+  </tr>
+</table>
+<p>Además, pasa por el punto $ \left( x_0,  f(x_0) \right) $. Poniendo esta condición en $ \left(2.1\right) $ se tiene que:</p>
+<table style="width:100%;">
+    <tr>
+        <td style="text-align:center;">$ f(x_0) = f'(x_0)x_{0} + b $</td>
+    </tr>
+</table>
+<p>de donde, despejando $ b $:</p>
+<table style="width:100%;">
+    <tr>
+        <td style="text-align:center;">$ b = f(x_0) - f'(x_0)x_{0} $</td>
+        <td style="text-align:right; width:80px;">(2.2)</td>
+    </tr>
+</table>
+<p>Poniendo esto en $ \left(2.1\right) $, resulta:</p>
+<table style="width:100%;">
+    <tr>
+        <td style="text-align:center;">$ y = f'(x_0)x + f(x_0) - f'(x_0)x_{0} $</td>
+        <td style="text-align:right; width:80px;">(2.3)</td>
+    </tr>
+</table>
+<p>y tomando factor común $ f'(x_0) $ y ordenando, obtenemos, finalmente, la ecuación de la recta tangente al gráfico de $ f $ en el punto $ \left(x_{0},f(x_{0})\right) $:</p>
+<table style="width:100%;">
+    <tr>
+        <td style="text-align:center;"><div style="border:1px solid #ccc; padding:10px; border-radius:5px; display: inline-block;">$ y = f'(x_0)(x-x_0) + f(x_0) $</div></td>
+        <td style="text-align:right; width:80px">(2.4)</td>
+    </tr>
+</table>
+</div>    
+<br>
+Consideren la función $ f(x) = \frac{1}{2}x^2 - 2x -1 $.
+<ol class="arabic simple">
+<li><p>Esscriban la ecuación de la recta que es tangente al gráfico de <span class="math notranslate nohighlight">\( f \)</span> en el punto <span class="math notranslate nohighlight">\( \left(4, 1 \right) \)</span>.</p></li>
+<li><p>Lo mismo que en el ítem anterior, pero en el punto <span class="math notranslate nohighlight">\( \left(0, 1\right) \)</span>.</p></li>
+<li><p>(<img src="img/geo.png" style="height:1em; vertical-align:middle;">) Grafiquen en GeoGebra <span class="math notranslate nohighlight">\( f \)</span> y las dos rectas halladas para verificar la tangencia.</p></li>
+</ol>
+</section>
+<section id="problema-12-ecuaciones-de-cinematica">
+<h2>Problema 12. [Ecuaciones de cinemática]<a class="headerlink" href="#problema-12-ecuaciones-de-cinematica" title="Link to this heading">#</a></h2>
+<p>Lean el siguiente recuadro:</p>
+<div style="border:2px solid black; padding:10px; border-radius:10px;"><p>Cuando en Física se estudia el movimiento de un cuerpo que tiene aceleración constante, se define esa aceleración como la variacción de la velocidad en relacción al tiempo. Dadas una velocidad $ v $ en un instante $ t_0 $ y en un instante posterior $ t $, esa variación se calcula como:</p>
+<table style="width:100%";>
+    <tr>
+        <td style="text-align:center;">$ a = \frac{ v(t) - v(t_0 }{ t - t_0 } $</td>
+        <td style="text-align:right; width:80px;">(2.5)</td>
+    </tr>
+</table>
+<p>Si, para simplificar las expresiones, consideramos que el instante inicial es $ t_0 = 0 $, la ecuación $ \left(2.5\right) $ queda:</p>
+<table style="width:100%;">
+    <tr>
+        <td style="text-align:center;">$ a = \frac{ v(t) - v(t_0) }{ t } $</td>
+        <td style="text-align:right;width:80px;">(2.6)</td>
+    </tr>
+</table>
+<p>de donde resulta, despejando:</p>
+<table style="width:100%;">
+    <tr>
+        <td style="text-align:center;">$ v(t) = at + v(0) $</td>
+        <td style="text-align:right;width:80px;">(2.7)</td>
+    </tr>
+</table>
+<p>Sabiendo que la velocidad $ v(t) $ es la derivada de la posición $ x(t) $, ¿cómo tiene que ser la fórmula de la posición en función del tiempo?</p>
+</div></section>
+<section id="problema-13-problemas-tomados-de-la-guia-de-fisica-i">
+<h2>Problema 13. [Problemas tomados de la guía de Física I]<a class="headerlink" href="#problema-13-problemas-tomados-de-la-guia-de-fisica-i" title="Link to this heading">#</a></h2>
+<p>El objetivo de incluir aquí estos problemas es contribuir a que puedan aprecciar el diálogo que hay entre la Matemática y la Física. Los problemas de modelizar el movimiento de un cuerpo dieron históricamente motivación para el desarrollo de buena parte de lo que hoy llamamos Cálculo Diferencial. Hay quien elige aprender Matemática para luego entender los temas de Física y hay quien prefiere apoyarse en los contextos físicos para motivar la comprensión de la matemática. Cada uno debe encontrar su camino (y luego recorrerlo con MRU o MRUV).</p>
+<p>a) La posición de un auto de carrera se observó en varios momentos; los resultados se resumen en la tabla siguiente:</p>
+<table style="width:80%; border: 2px solid black; border-collapse: collapse; text-align: center;">
+  <tr>
+    <td style="background-color: #e0f7fa; border-right: 2px solid black; border-bottom: 1px solid black;">$ t[s] $</td>
+    <td style="background-color: white; border-left: 1px solid gray; border-bottom: 1px solid black;">0.0</td>
+    <td style="background-color: white; border-left: 1px solid gray; border-bottom: 1px solid black;">1.0</td>
+    <td style="background-color: white; border-left: 1px solid gray; border-bottom: 1px solid black;">2.0</td>
+    <td style="background-color: white; border-left: 1px solid gray; border-bottom: 1px solid black;">3.0</td>
+    <td style="background-color: white; border-left: 1px solid gray; border-bottom: 1px solid black;">4.0</td>
+    <td style="background-color: white; border-left: 1px solid gray; border-bottom: 1px solid black;">5.0</td>
+  </tr>
+  <tr>
+    <td style="background-color: #e0f7fa; border-right: 2px solid black; border-top: 1px solid black;">$ x[m] $</td>
+    <td style="background-color: white; border-left: 1px solid gray; border-top: 1px solid black;">0.0</td>
+    <td style="background-color: white; border-left: 1px solid gray; border-top: 1px solid black;">2.3</td>
+    <td style="background-color: white; border-left: 1px solid gray; border-top: 1px solid black;">9.2</td>
+    <td style="background-color: white; border-left: 1px solid gray; border-top: 1px solid black;">20.7</td>
+    <td style="background-color: white; border-left: 1px solid gray; border-top: 1px solid black;">36.8</td>
+    <td style="background-color: white; border-left: 1px solid gray; border-top: 1px solid black;">57.5</td>
+  </tr>
+</table>
+<p>Encuentren la velocidad promedio del auto para:</p>
+<p><strong>(i)</strong> El primer intervalo de tiempo de <span class="math notranslate nohighlight">\( 1\ s \)</span>.</p>
+<p><strong>(ii)</strong> Los últimos <span class="math notranslate nohighlight">\( 3\ s \)</span>.</p>
+<p><strong>(iii)</strong> Todo el período de observación.</p>
+<p>b) Un auto va por una ruta a una velocidad constante de <span class="math notranslate nohighlight">\( 60\ \frac{km}{h} \)</span>. Al ver un semáforo en rojo aplica el freno y se detiene en <span class="math notranslate nohighlight">\( 10\ s \)</span>. Permanece parado durante <span class="math notranslate nohighlight">\( 30\ s \)</span> y vuelve a arrancar tardando <span class="math notranslate nohighlight">\( 20\ s \)</span> en llegar a misma velocidad a la que venía. Fijen un sistema de coordenadas y contesten:</p>
+<p><strong>(i)</strong> ¿Cuál es su aceleración antes de ver el semáforo?.</p>
+<p><strong>(ii)</strong> ¿Cuál es su acceleración en el momento que está frenando?.</p>
+<p><strong>(iii)</strong> ¿Cuál es su acceleración entre que arranca y alcanza la misma velocidad?.</p>
+<p><strong>(iv)</strong> Realicen gráficos de la aceleración y la distanciaa recorrida hasta detenerse.</p>
+</section>
+<section id="problema-14-problemas-de-un-trazo-funcion-cuadratica">
+<h2>Problema 14. [Problemas de un trazo. Función cuadrática](<img src="img/nogeo.png" style="height:1em; vertical-align:middle;">)<a class="headerlink" href="#problema-14-problemas-de-un-trazo-funcion-cuadratica" title="Link to this heading">#</a></h2>
+<p>C1. Dados tres puntos no alineados y con disstintas abscisas, escribir una fórmula de la función cuadrática que pasa por ellos.</p>
+<p>C2. Dados dos puntos, escribir la fórmula de todas las funciones cuadráticas que pasan por ellos.</p>
+<p>C3. La fórmula de una función cuadrática se puede escribir como:</p>
+<ul class="simple">
+<li><p>(i) <span class="math notranslate nohighlight">\( f(x) = ax^2 + bx + c \)</span></p></li>
+<li><p>(ii) <span class="math notranslate nohighlight">\( f(x) = a(x - p)^2 + q \)</span></p></li>
+<li><p>(iii) <span class="math notranslate nohighlight">\( f(x) = a(x - x_0)(x - x_1) \)</span></p></li>
+</ul>
+<p>Siempre con <span class="math notranslate nohighlight">\( a \neq 0 \)</span>
+Dada una función cuadrática expresada de cualquiera de las formas (i), (ii), (iii), manipular la expresión algebraica para expresarla de cualquiera de las otras dos formas.</p>
+<p>C4. Dada una función cuadrática en cualquiera de las formas (i), (ii) o (iii) y un punto <span class="math notranslate nohighlight">\( P=\left(r,s\right) \)</span> decidir si el punto pertenece o no al gráfico de lla función.</p>
+<p>C5. Resolver ecuaciones de las formas:</p>
+<p>a) <span class="math notranslate nohighlight">\( ax^2 + bx + c = 0 \)</span></p>
+<p>b) <span class="math notranslate nohighlight">\( a(x - p)^2 + q = 0 \)</span></p>
+<p>c) <span class="math notranslate nohighlight">\( a(x - x_0)(x - x_1) = 0 \)</span></p>
+<p>C6. Dada una función cuadrática en cualquiera de las formas (i), (ii), o (iii) construir la parábola que es su gráfico.</p>
+<p>C7. Dada una función cuadrática en cualquiera de las formas (i), (ii) o (iii) identificar el eje de simetría de la parábola (que es su gráfico).</p>
+<p>C8. Dada una función cuadrática en cualquiera de las formas (i), (ii) o (iii) identificar el vértice de parábola (que es su gráfico).</p>
+<p>C9. Dada una función cuadrática en cualquiera de las formas (i), (ii) o (iii) encontrar pares de puntos <span class="math notranslate nohighlight">\( x_n, x_m \)</span>, tales que <span class="math notranslate nohighlight">\( f(x_n) = f(x_m) \)</span>.</p>
+<p>C10. Dadas dos funciones cuadráticas determinar la intersección de sus gráficas y decidir si se trata de un punto, de dos puntos o de ningún punto.</p>
+<p>C11. Dadas una función cuadrática y una lineal determinar la intersección de sus gráficas y decidir si se trata de un punto, de dos puntos o de ningún punto.</p>
+</section>
+<section id="problema-15-problemas-de-un-trazo-funcion-cuadratica-y-derivada">
+<h2>Problema 15. [Problemas de un trazo. Función cuadrática y derivada](<img src="img/nogeo.png" style="height:1em; vertical-align:middle;">)<a class="headerlink" href="#problema-15-problemas-de-un-trazo-funcion-cuadratica-y-derivada" title="Link to this heading">#</a></h2>
+<p>D1. Dada una función cuadrática en la forma <span class="math notranslate nohighlight">\( f(x) = ax^2 + bx + c \)</span> o <span class="math notranslate nohighlight">\( f(x) = a(x - p)^2 + q \)</span>, escribir su derivada.</p>
+<p>D2. Dada una función cuadrática en la forma <span class="math notranslate nohighlight">\( f(x) = ax^2 + bx + c \)</span> o <span class="math notranslate nohighlight">\( f(x) = a(x - p)^2 + q \)</span>, escribir la ecuación de la recta tangente a su gráfico en un punto <span class="math notranslate nohighlight">\( P=\left(x_0, f(x_0)\right) \)</span>.</p>
+<p>D3. Dada una función cuadrática en la forma <span class="math notranslate nohighlight">\( f(x) = ax^2 + bx + c \)</span> o <span class="math notranslate nohighlight">\( f(x) = a(x - p)^2 + q \)</span> y un número real <span class="math notranslate nohighlight">\( k \)</span>, determinar <span class="math notranslate nohighlight">\( x_0 \)</span> tal que <span class="math notranslate nohighlight">\( f'(x_0) = k \)</span>.</p>
+<p>D4. Dada una función lineal <span class="math notranslate nohighlight">\( f(x) = mx + b \)</span> encontrar una función cuadrática <span class="math notranslate nohighlight">\( F \)</span> tal que <span class="math notranslate nohighlight">\( F' = f \)</span>.</p>
+<p>D5. Dada una función lineal <span class="math notranslate nohighlight">\( f(x) = mx + b \)</span> y un punto <span class="math notranslate nohighlight">\( \left(x_0, f(x_0)\right) \)</span>, hallar una función  cuadrática <span class="math notranslate nohighlight">\( g \)</span> tal que el gráfico de <span class="math notranslate nohighlight">\( f \)</span> sea la recta tangente al gráfico <span class="math notranslate nohighlight">\( g \)</span> en <span class="math notranslate nohighlight">\( \left(x_0, g(x_0)\right) \)</span>.</p>
+<p>D6. Dada una función cuadrática en la forma <span class="math notranslate nohighlight">\( f(x) = ax^2 + bx + c \)</span> o <span class="math notranslate nohighlight">\( f(x) = a(x - p)^2 + q \)</span>, identificar el vértice resolviendo la ecuación <span class="math notranslate nohighlight">\( f'(x) = 0 \)</span>.</p>
+<p>D7. Dada una función cuadrática en la forma <span class="math notranslate nohighlight">\( f(x) = ax^2 + bx + c \)</span> o <span class="math notranslate nohighlight">\( f(x) = a(x - p)^2 + q \)</span> identificar los intervalos de crecimiento y de decrecimiento resolviendo las inecuaciones <span class="math notranslate nohighlight">\( f'(x) &gt; 0 \)</span> y <span class="math notranslate nohighlight">\( f'(x) &lt; 0 \)</span>.</p>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="Guia_U1.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Unidad 1:</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="Guia_U3.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Unidad 3:</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#problema-6-carrera">Problema 6. [Carrera](<img src="img/geo.png" style="height:1em; vertical-align:middle;"/>)</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#problema-7-tiro-vertical">Problema 7.[Tiro vertical]</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#problema-8-velocidad-media">Problema 8. [Velocidad media](<img src="img/geo.png" style="height:1em; vertical-align:middle;"/>)</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#problema-9-velocidad-instantanea">Problema 9. [Velocidad instantánea]</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#problema-10-varias-velocidades">Problema 10. [Varias velocidades]</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#problema-11-recta-tangente">Problema 11. [Recta tangente]</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#problema-12-ecuaciones-de-cinematica">Problema 12. [Ecuaciones de cinemática]</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#problema-13-problemas-tomados-de-la-guia-de-fisica-i">Problema 13. [Problemas tomados de la guía de Física I]</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#problema-14-problemas-de-un-trazo-funcion-cuadratica">Problema 14. [Problemas de un trazo. Función cuadrática](<img src="img/nogeo.png" style="height:1em; vertical-align:middle;"/>)</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#problema-15-problemas-de-un-trazo-funcion-cuadratica-y-derivada">Problema 15. [Problemas de un trazo. Función cuadrática y derivada](<img src="img/nogeo.png" style="height:1em; vertical-align:middle;"/>)</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Analisis Matematico I
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2023.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b"></script>
+<script src="_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
